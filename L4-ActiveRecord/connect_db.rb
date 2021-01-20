@@ -5,7 +5,7 @@ def connect_db!
         host: 'localhost',
         adapter: 'postgresql',
         database: 'saas_db',
-        user: '',
-        password: ''
+        user: 'postgres',
+        password: 'changeme'
     )
 end
